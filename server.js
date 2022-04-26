@@ -40,3 +40,4 @@ app.use((req, res) => {
 const port = process.env.PORT || 80;
 app.listen(port);
 console.log('server started http://localhost:'+ port);
+console.log('NODE_ENV', process.env.NODE_ENV)
